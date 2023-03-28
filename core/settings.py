@@ -77,7 +77,7 @@ import os,dj_database_url
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-    'default':dj_database_url.parse(env('DATABASE_URl'))
+    'default':dj_database_url.parse(env('DATABASE_URL'))
 }
 
 
